@@ -1,0 +1,8 @@
+export default function() {
+    return [
+        {title: 'The Sirens Of Titans', summary: 'The Sirens of Titan is a Hugo Award-nominated novel by Kurt Vonnegut, Jr., first published in 1959. His second novel, it involves issues of free will, omniscience, and the overall purpose of human history.'},
+        {title: 'Lolita', summary: 'Lolita is a 1955 novel written by Russian American novelist Vladimir Nabokov. The novel is notable for its controversial subject: the protagonist and unreliable narrator—a middle-aged literature professor called Humbert Humbert—is obsessed with the 12-year-old Dolores Haze, with whom he becomes sexually involved after he becomes her stepfather.'},
+        {title: 'Brave New World', summary: 'Brave New World is a dystopian novel written in 1931 by English author Aldous Huxley, and published in 1932. Set in London in the year AD 2540 (632 A.F.—"After Ford"—in the book), the novel anticipates developments in reproductive technology, sleep-learning, psychological manipulation, and classical conditioning that are combined to make a profound change in society.'},
+        {title: 'Jane Eyre', summary: 'Jane Eyre is a novel by English writer Charlotte Brontë. It was published on 16 October 1847, by Smith, Elder & Co. of London, England, under the pen name "Currer Bell". Primarily of the Bildungsroman genre, Jane Eyre follows the emotions and experiences of its eponymous heroine, including her growth to adulthood and her love for Mr. Rochester, the Byronic[1] master of fictitious Thornfield Hall.'}
+    ]
+}

@@ -1,0 +1,50 @@
+ul {
+    padding: 0px;
+}
+
+.bookItem, .bookDetail, .bookSelect {
+    background-color: pink;
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+    list-style: none;
+    width: 300px;
+    border-radius: 10px;
+    font-family: helvetica;
+    font-size: 20px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(163,121,201,1);
+    padding: 20px 0px 20px 0px;
+    margin-bottom: 10px;
+    line-height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: 
+      radial-gradient(circle at 6.7% 75%,
+        rgba(173,185,227,1),
+        rgba(173,185,227,0) 90%),
+      radial-gradient(circle at 93.3% 75%,
+        rgba(163,121,201,1),
+        rgba(163,121,201,0) 90%),
+      radial-gradient(circle at 50% 0,
+        rgba(183,68,184,1),
+        rgba(183,68,184,0) 90%) pink;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.bookDetail, .bookSelect {
+    margin: 0 auto;
+    border: 5px solid violet;
+}
+
+.bookDetail {
+    font-size: 15px;
+    padding: 20px;
+}

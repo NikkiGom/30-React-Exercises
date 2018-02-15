@@ -1,0 +1,50 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 20px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    width: 300px;
+    min-height: 100px;
+    border-radius: 10px;
+    
+    font-family: helvetica;
+    font-size: 20px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(163,121,201,1);
+    line-height: 20px;
+    color: white;
+
+    background: 
+      radial-gradient(circle at 6.7% 75%,
+        rgba(173,185,227,1),
+        rgba(173,185,227,0) 90%),
+      radial-gradient(circle at 93.3% 75%,
+        rgba(163,121,201,1),
+        rgba(163,121,201,0) 90%),
+      radial-gradient(circle at 50% 0,
+        rgba(183,68,184,1),
+        rgba(183,68,184,0) 90%) pink;
+} 
+
+input {
+    margin: 10px;
+    border-radius: 5px;
+    padding: 5px;
+    outline: none;
+    font-size: 17px;
+    background-color: inherit;
+    border: 3px solid white;
+    color: white;
+}
+
+input:focus {
+    outline: none;
+}
+
+form {
+    margin-bottom: 0px;
+}

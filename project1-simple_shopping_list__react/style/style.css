@@ -1,0 +1,48 @@
+.container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 25px 30px 75px 25px;
+    border-radius: 10px;
+    color: white;
+    font-family: helvetica;
+
+    background: 
+      radial-gradient(circle at 6.7% 75%,
+        rgba(173,185,227,1),
+        rgba(173,185,227,0) 90%),
+      radial-gradient(circle at 93.3% 75%,
+        rgba(163,121,201,1),
+        rgba(163,121,201,0) 90%),
+      radial-gradient(circle at 50% 0,
+        rgba(183,68,184,1),
+        rgba(183,68,184,0) 90%) pink;
+}
+
+input {
+    padding: 5px;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+    font-size: 17px;
+    background-color: inherit;
+    border: 3px solid white;
+    color: white;
+}
+
+input::placeholder {
+    color: white;
+}
+
+input:focus::placeholder { 
+    color:transparent; 
+}
+
+.list {
+    font-size: 20px;
+    padding-left: 0;
+}
+
+.completed {
+    color: white;
+    text-decoration: line-through;
+}
